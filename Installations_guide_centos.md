@@ -50,8 +50,9 @@
  
  ## Jenkins installation in Centos
  
+ - yum install java-openjdk11
  - wget https://updates.jenkins-ci.org/download/war/2.162/jenkins.war 
- - java -jar jenkins.war --httpPort=5000
+ - nohup java -jar jenkins.war --httpPort=<> &
  
  
  ## Upgrading Centos java from 1.7 to 1.8 in centos
